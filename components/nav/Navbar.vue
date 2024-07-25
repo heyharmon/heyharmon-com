@@ -59,14 +59,14 @@
             </button> -->
 
             <!-- Mobile menu button -->
-            <div class="relative z-10 flex items-center lg:hidden">
+            <!-- <div class="relative z-10 flex items-center lg:hidden">
               <DisclosureButton class="relative inline-flex items-center justify-center rounded-md p-1 text-slate-900 bg-indigo-400/5 hover:bg-indigo-100 hover:text-slate-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-violet-500">
                 <span class="absolute -inset-0.5" />
                 <span class="sr-only">Open menu</span>
                 <Bars3Icon v-if="!open" class="block h-7 w-7" aria-hidden="true" />
                 <XMarkIcon v-else class="block h-7 w-7" aria-hidden="true" />
               </DisclosureButton>
-            </div>
+            </div> -->
           </div>
         </div>
 
@@ -86,7 +86,7 @@
       <!-- </div> -->
 
       <!-- Mobile flyout -->
-      <DisclosurePanel as="nav" class="lg:hidden bg-teal-50" aria-label="Global">
+      <!-- <DisclosurePanel as="nav" class="lg:hidden bg-teal-50" aria-label="Global">
         <div class="space-y-1 px-2 pb-3 pt-2">
           <DisclosureButton 
             v-for="item in navigation" 
@@ -99,7 +99,7 @@
           >
             {{ item.name }}
           </DisclosureButton>
-        </div>
+        </div> -->
         <!-- <div class="border-t border-slate-200 pb-3 pt-4">
           <div class="flex items-center px-4">
             <div class="flex-shrink-0">
@@ -119,7 +119,7 @@
             <DisclosureButton v-for="item in userNavigation" :key="item.name" as="a" :href="item.href" class="block rounded-md px-3 py-2 text-base font-medium text-slate-500 hover:bg-slate-50 hover:text-slate-900">{{ item.name }}</DisclosureButton>
           </div>
         </div> -->
-      </DisclosurePanel>
+      <!-- </DisclosurePanel> -->
     </Disclosure>
 
     <!-- <CartModal/> -->
