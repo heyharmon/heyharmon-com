@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "netlify dev",
+    "nuxt-dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^1.1.0",
+    "@nuxt/image-edge": "^1.1.0-28344124.5284548",
+    "@nuxtjs/seo": "^2.0.0-rc.10",
+    "@nuxtjs/tailwindcss": "^6.6.5",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.13",
+    "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
+    "nuxt": "^3.12.1",
+    "nuxt-headlessui": "^1.1.4",
+    "nuxt-icon": "^0.3.3"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.1.3",
+    "@pinia/nuxt": "^0.5.0",
+    "@shopify/storefront-api-client": "^1.0.0",
+    "@vueuse/nuxt": "^10.6.1",
+    "collect.js": "^4.36.1",
+    "hex-rgb": "^5.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "nanoid": "^5.0.7",
+    "pinia": "^2.0.35",
+    "shopify-buy": "^2.22.0"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
