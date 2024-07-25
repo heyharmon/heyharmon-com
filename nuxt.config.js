@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   },
 
   gtm: {
-    id: 'GTM-K32RK5S6',
+    id: 'GTM-5KGDNJCD',
   },
 
   headlessui: {
@@ -63,7 +63,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       gtm: {
-        id: 'GTM-K32RK5S6',
+        id: 'GTM-5KGDNJCD',
       }
     }
   },
