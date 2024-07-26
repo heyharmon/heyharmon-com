@@ -12,8 +12,8 @@
         </div> -->
         <div class="">
           <!-- <h1 class="text-6xl font-header text-slate-900 sm:text-7xl">Award-winning digital</h1> -->
-          <h1 class="text-6xl font-header text-slate-900 sm:text-7xl">Software engineering and award-winning design</h1>
-          <p class="mt-6 text-xl leading-8 text-slate-600">Change your whole game by building software and branding that puts a giant moat between you and your competitors.</p>
+          <h1 class="text-6xl font-header text-slate-900 sm:text-7xl">{{ content.title }}</h1>
+          <p class="mt-6 text-xl leading-8 text-slate-600">{{ content.subtitle }}</p>
           <div class="mt-10 flex items-center gap-x-6">
             <a href="mailto:heyharmon@gmail.com" class="rounded-md bg-slate-900 py-4 px-6 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600">Let's talk</a>
             <!-- <a href="#" class="text-sm font-semibold leading-6 text-slate-900">Learn more <span aria-hidden="true">→</span></a> -->
@@ -28,4 +28,7 @@
 </template>
   
 <script setup>
+const props = defineProps({
+    content: Object,
+})
 </script>

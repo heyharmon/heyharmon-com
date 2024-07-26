@@ -5,7 +5,7 @@
       <!-- <div class="xl:grid xl:grid-cols-3 xl:gap-10"> -->
         <div class="mx-auto flex flex-col">
           <!-- <Logo :inverse="true"/> -->
-          <p class="text-3xl font-header text-white">Studio Harmon</p>
+          <!-- <p class="text-3xl font-header text-white">Studio Harmon</p> -->
           <!-- <div class="flex space-x-6">
             <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-slate-400 hover:text-slate-500">
               <span class="sr-only">{{ item.name }}</span>
