@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/content": "^2.13.2",
     "@nuxt/image": "^1.1.0",
     "@nuxt/image-edge": "^1.1.0-28344124.5284548",
     "@nuxtjs/seo": "^2.0.0-rc.10",
